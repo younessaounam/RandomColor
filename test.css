@@ -1,0 +1,24 @@
+*{padding: 0;margin: 0; box-sizing: border-box;}
+body {
+    background: #151427;
+    color: white;display: flex;justify-content: center;align-items: center;
+  }
+div{
+    max-width:  400px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;margin-top: 10px;
+
+}
+.cadr{
+    width: 16px;height: 16px;box-shadow: 0 0 2px white;margin: 2px;transition: 2s;
+}
+.cadr:hover {
+    transition-duration: 0s;
+  }
+footer{
+    position: fixed;bottom: 30px;
+}
+span{
+    color: aqua;
+}
+audio{
+    overflow: hidden;
+}
